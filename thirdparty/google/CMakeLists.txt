@@ -1,6 +1,6 @@
 # Debug message
 MESSAGE(STATUS "Add subdirectory [${CMAKE_CURRENT_SOURCE_DIR}]")
-
+set(NET_SRC_PATH ${CMAKE_CURRENT_SOURCE_DIR})
 # google libraries
 
 ADD_SUBDIRECTORY(clog)
